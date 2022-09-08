@@ -14,10 +14,19 @@ Private Sub confirm_Click()
 End Sub
 
 Private Sub discard_Click()
+
     SendKeys "{esc}", True
     SendKeys "{NUMLOCK}", True
     DoCmd.Close
     DoCmd.OpenForm FormName:="main"
+    
+End Sub
+
+Private Sub Form_Load()
+
+    DoCmd.Maximize
+    Application.RunCommand acCmdAppMaximize
+
 End Sub
 
 Private Sub Form_Timer()
@@ -32,6 +41,9 @@ Form_main
 Option Compare Database
 
 Private Sub Form_Load()
+
+    DoCmd.Maximize
+    Application.RunCommand acCmdAppMaximize
 
 End Sub
 
@@ -72,3 +84,40 @@ Option Explicit
    f.Close
    Set fs = Nothing
    End Sub
+===============
+Form_add_member
+===============
+Option Compare Database
+
+Private Sub confirm_Click()
+
+    If Me.save.Enabled = False Then
+        If IsNull(Me.member_id) = False And IsNull(Me.first_name) = False And IsNull(Me.last_name) = False And IsNull(Me.school) = False And IsNull(Me.admission_year) = False And IsNull(Me.class) = False And IsNull(Me.phone) = False Then
+            Me.save.Enabled = True
+        End If
+    End If
+
+End Sub
+
+Private Sub discard_Click()
+
+    SendKeys "{esc}", True
+    SendKeys "{NUMLOCK}", True
+    DoCmd.Close
+    DoCmd.OpenForm FormName:="main"
+    
+End Sub
+
+Private Sub Form_Load()
+
+    DoCmd.Maximize
+    Application.RunCommand acCmdAppMaximize
+
+End Sub
+
+Private Sub Form_Timer()
+    
+    Me.Time.Requery
+    Me.Date.Requery
+
+End Sub
