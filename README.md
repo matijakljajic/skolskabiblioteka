@@ -2,7 +2,8 @@
 
 This is my secondary school graduation project involving the school library and the city library. The interface managed by the end user is powered by Microsoft Access while the database itself could be migrated to a server solution if needed. The project is thus scalable and could be reused at a later date.  
 This is also my first project done on GitHub.    
-I already know that a C# solution might be better, but doing the project this way was faster and it was the only option due to limited time. Keep in mind that this is a rework of the original project so that I could learn Git in-depth. It is quite simplified, but it may be updated accordingly.
+I already know that a C# solution might be better, but doing the project this way was faster and it was the only option due to limited time.  
+This is a rework of the original project so that I could learn Git in-depth. It is quite simplified from the original, but it may be updated accordingly.
 
 ## Features
 
