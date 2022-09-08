@@ -1,7 +1,8 @@
 # School/city library database program
 
 This is my secondary school graduation project involving the school library and the city library.  
-The interface managed by the end user is powered by Microsoft Access while the database itself could be migrated to a server solution if needed. The project is thus scalable and could be reused at a later date. This was adequate at the time, but of course, there are better solutions. (A C# solution maybe?)  
+The interface managed by the end user is powered by Microsoft Access while the database itself could be migrated to a server solution if needed. The project is thus scalable and could be reused at a later date. This was adequate at the time, but of course, there are better solutions.  
+(A C# solution maybe?)  
 
 *This is a rework of the original project so that I could learn Git in-depth. It is quite simplified from the original, but it may be updated accordingly.*
 
@@ -16,4 +17,4 @@ The interface managed by the end user is powered by Microsoft Access while the d
 
 ## Screenshots of the original project
 
-<img src="https://i.ibb.co/CJgPgdV/baza-fe.png" width="240" height="160" alt="Splash screen">  <img src="https://i.ibb.co/rthqGfv/Pomo-img2.png" width="265" height="160" alt="Main menu">  <img src="https://i.ibb.co/x6zKX5c/Pomo-img3.png" width="182" height="160" alt="Feature">
+<p align="center"><img src="https://i.ibb.co/CJgPgdV/baza-fe.png" width="240" height="160" alt="Splash screen">  <img src="https://i.ibb.co/rthqGfv/Pomo-img2.png" width="265" height="160" alt="Main menu">  <img src="https://i.ibb.co/x6zKX5c/Pomo-img3.png" width="182" height="160" alt="Feature"><p>
