@@ -163,7 +163,11 @@ Private Sub confirm_Click()
 End Sub
 
 Private Sub discard_Click()
-
+    
+    DoCmd.SetWarnings False
+    DoCmd.OpenQuery "book_t"
+    DoCmd.SetWarnings True
+        
     SendKeys "{esc}", True
     SendKeys "{NUMLOCK}", True
     DoCmd.Close
