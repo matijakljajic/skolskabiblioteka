@@ -32,8 +32,7 @@ End Sub
 Private Sub Form_Timer()
     
     Me.Time.Requery
-    Me.Date.Requery
-
+    
 End Sub
 ===============
 Form_main
@@ -50,7 +49,6 @@ End Sub
 Private Sub Form_Timer()
     
     Me.Time.Requery
-    Me.Date.Requery
 
 End Sub
 ===============
@@ -118,6 +116,75 @@ End Sub
 Private Sub Form_Timer()
     
     Me.Time.Requery
-    Me.Date.Requery
+
+End Sub
+===============
+Form_all_members
+===============
+Option Compare Database
+
+Private Sub Button_search_Click()
+     
+    Dim SQL As String
+    
+    SQL = "SELECT [member].[member_id], [member].[first_name], [member].[last_name], [member].[admission_year], [member].[class], [member].[school], [member].[phone] FROM member WHERE [member].[first_name] LIKE '*" & Me.fsearch & "*' AND [member].[last_name] LIKE '*" & Me.lsearch & "*' "
+    
+    Form.RecordSource = SQL
+    Form.Requery
+
+End Sub
+
+Private Sub Form_Load()
+
+    DoCmd.Maximize
+    Application.RunCommand acCmdAppMaximize
+
+End Sub
+
+Private Sub Form_Timer()
+
+    Me.Time.Requery
+
+End Sub
+===============
+Form_add_borrowing
+===============
+Private Sub discard_Click()
+
+    SendKeys "{esc}", True
+    SendKeys "{NUMLOCK}", True
+    DoCmd.Close
+    DoCmd.OpenForm FormName:="main"
+    
+End Sub
+===============
+Form_all_books
+===============
+Option Compare Database
+
+Private Sub Button_search_Click()
+
+    Dim SQL As String
+    
+    SQL = "SELECT [book].[book_id], [book].[title], [book].[naziv], [book].[author], [book].[admission_date], [book].[borrowed], [book].[lost] " _
+    & "FROM book " _
+    & "WHERE [book].[title] LIKE '*" & Me.tsearch & "*' " _
+    & "AND [book].[author] LIKE '*" & Me.asearch & "*' "
+
+    Form.RecordSource = SQL
+    Form.Requery
+
+End Sub
+
+Private Sub Form_Load()
+
+    DoCmd.Maximize
+    Application.RunCommand acCmdAppMaximize
+
+End Sub
+
+Private Sub Form_Timer()
+
+    Me.Time.Requery
 
 End Sub
