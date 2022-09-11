@@ -15,6 +15,10 @@ The interface managed by the end user is powered by Microsoft Access while the d
 - ability to extract/print certain needed info
 - ability to use the program on multiple computers at once
 
+## Screenshots of the rework
+
+<p align="center"><img src="https://i.ibb.co/58srS2X/mainmenu.jpg" width="265" height="160" alt="Main menu">  <img src="https://i.ibb.co/3Td0924/allbooks.jpg" width="265" height="160" alt="All books">  <img src="https://i.ibb.co/Y8Ct4JK/moreinfo.jpg" width="265" height="160" alt="All books"></p>
+
 ## Screenshots of the original project
 
-<p align="center"><img src="https://i.ibb.co/CJgPgdV/baza-fe.png" width="240" height="160" alt="Splash screen">  <img src="https://i.ibb.co/rthqGfv/Pomo-img2.png" width="265" height="160" alt="Main menu">  <img src="https://i.ibb.co/x6zKX5c/Pomo-img3.png" width="182" height="160" alt="Feature"><p>
+<p align="center"><img src="https://i.ibb.co/CJgPgdV/baza-fe.png" width="240" height="160" alt="Splash screen">  <img src="https://i.ibb.co/rthqGfv/Pomo-img2.png" width="265" height="160" alt="Main menu">  <img src="https://i.ibb.co/x6zKX5c/Pomo-img3.png" width="182" height="160" alt="Feature"></p>
