@@ -8,12 +8,12 @@ The interface managed by the end user is powered by Microsoft Access while the d
 
 ## Features
 
-- basic UI that's at least a bit pleasant to look at
-- some kind of security
-- more efficient way to check up on members and available books
-- all-around easier process when it comes to lending books
-- ability to extract/print certain needed info
-- ability to use the program on multiple computers at once
+- ✅ basic UI that's at least a bit pleasant to look at
+- ✅ some kind of security
+- ✅ more efficient way to check up on members and available books
+- ✅ all-around easier process when it comes to lending books
+- 🔳 ability to extract/print certain needed info
+- 🔳 ability to use the program on multiple computers at once
 
 ## Screenshots of the rework
 
