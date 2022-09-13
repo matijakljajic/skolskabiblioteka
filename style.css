@@ -11,7 +11,7 @@ header {
     top: 0;
     width: 100%;
     height: 80px;
-    background-color: #f2edde;;
+    background-color: #f2edde;
 }
 
 body {
@@ -71,6 +71,24 @@ body {
 .btn:hover {
     background-color: #b17764;
     color: #f2edde;
+}
+
+.endinfo {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 20px;
+    background-color: #f2edde;
+    margin-top: 0.5%;
+    font-size: smaller;
+    color: #b17764;
+    border-top: 1px solid #b17764;
+    text-align: right;
+}
+
+.endinfo span {
+    float: left;
 }
 
 /* splash */
