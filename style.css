@@ -84,11 +84,7 @@ body {
     font-size: smaller;
     color: #b17764;
     border-top: 1px solid #b17764;
-    text-align: right;
-}
-
-.endinfo span {
-    float: left;
+    text-align: left;
 }
 
 /* splash */
