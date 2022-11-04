@@ -21,7 +21,7 @@ The interface managed by the end user is powered by Microsoft Access while the d
 
 ## Screenshots of the rework
 
-<p align="center"><img src="https://i.ibb.co/58srS2X/mainmenu.jpg" width="265" height="160" alt="Main menu">  <img src="https://i.ibb.co/Y8Ct4JK/moreinfo.jpg" width="265" height="160" alt="All books"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/matijakljajic/skolskabiblioteka/main/Screenshots/new/main.jpg" width="265" height="160" alt="Main menu">  <img src="https://raw.githubusercontent.com/matijakljajic/skolskabiblioteka/main/Screenshots/new/members.jpg" width="265" height="160" alt="All books"></p>
 
 ## Screenshots of the original project
 
