@@ -28,6 +28,11 @@ body {
     margin-right: auto;
 }
 
+.centerimg {
+    text-align:center;
+    display:inline-block;
+}
+
 .content {
     margin-left: 10%;
     margin-right: 10%;
@@ -111,6 +116,7 @@ body {
 .logo {
     position: relative;
     display: inline-block;
+    text-align:center;
     bottom: -20px;
     opacity: 0;
 }
