@@ -14,8 +14,8 @@ The interface managed by the end user is powered by Microsoft Access while the d
 - [x] some kind of security
 - [x] more efficient way to check up on members and available books
 - [x] all-around easier process when it comes to lending books
-- [ ] ability to extract/print certain needed info
-- [ ] ability to use the program on multiple computers at once
+- [ ] ~~ability to extract/print certain needed info~~ (*was done in the original*)
+- [ ] ~~ability to use the program on multiple computers at once~~ (*was done in the original*)
 
 ## Screenshots of the rework
 
