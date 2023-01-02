@@ -23,4 +23,4 @@ The interface managed by the end user is powered by Microsoft Access while the d
 
 ## Screenshots of the original project
 
-<p align="center"><img src="https://i.ibb.co/CJgPgdV/baza-fe.png" width="240" height="160" alt="Splash screen">  <img src="https://i.ibb.co/rthqGfv/Pomo-img2.png" width="265" height="160" alt="Main menu">  <img src="https://i.ibb.co/x6zKX5c/Pomo-img3.png" width="182" height="160" alt="Feature"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/matijakljajic/skolskabiblioteka/main/Screenshots/old/splash.png" width="240" height="160" alt="Splash screen">  <img src="https://raw.githubusercontent.com/matijakljajic/skolskabiblioteka/main/Screenshots/old/main.png" width="265" height="160" alt="Main menu">  <img src="https://raw.githubusercontent.com/matijakljajic/skolskabiblioteka/main/Screenshots/old/newlist.png" width="182" height="160" alt="Feature"></p>
